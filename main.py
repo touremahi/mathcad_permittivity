@@ -18,12 +18,12 @@ from fonctions import (
     plot_s_db_deg, plot_er_tan_delta)
 
 if __name__ ==  "__main__":
-    CHEMIN = 'datas' # Contenant les fichiers S2P
+    CHEMIN = 'my_test_data/datas' # Contenant les fichiers S2P
     FICHIERS = {
         "air_l1"   : 'Ligne_25mm_vide.s2p',
         "air_l2"   : 'Ligne_35mm_vide.s2p',
         "ref_l2"   : 'Ligne_35mm_4Rogers.s2p',
-        "cible_l2" : 'Ligne_35mm_4Rogers.s2p'
+        "cible_l2" : 'Ligne_35mm_2FR4.s2p'
     }
     ER_REF = 3.4
 
