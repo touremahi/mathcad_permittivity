@@ -160,9 +160,9 @@ def plot_er_tan_delta(list_data:list, freq, axes):
     Plots the loss tangent and relative permittivity of a given measurement.
     """
     axes[0].set_ylim(1, 6)
-    axes[0].set_ylabel('Permittivity (ε_r)')
+    axes[0].set_ylabel(r'Permittivity (ε_r)')
     # axes[0].set_xscale("log")
-    axes[1].set_ylabel('Permittivity (ε_r)')
+    axes[1].set_ylabel('tan δ')
     axes[1].set_yscale("log")
     axes[1].set_xscale("log")
     for i, data in enumerate(list_data):

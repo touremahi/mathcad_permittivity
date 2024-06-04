@@ -38,7 +38,7 @@ if __name__ ==  "__main__":
 
     ref_l2 = charger_fichier_s2p(
         fichier = f'{CHEMIN}/{FICHIERS["ref_l2"]}',
-        nom_fichier="Ligne L2 air")
+        nom_fichier="Ligne L2 Réf")
     cible_l2 = charger_fichier_s2p(
         fichier = f'{CHEMIN}/{FICHIERS["cible_l2"]}',
         nom_fichier="ligne 35mm milieu")
